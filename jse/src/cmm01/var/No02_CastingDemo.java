@@ -2,16 +2,16 @@ package cmm01.var;
 /*
  Date : 2015. 05. 11
  Author : Hwang
- Description : Casting ¹®¹ı¿¡ ´ëÇÑ ÇĞ½ÀÀÚ·á
+ Description : Casting ë¬¸ë²•ì— ëŒ€í•œ í•™ìŠµìë£Œ
  * */
-class CastingDemo{
+class No02_CastingDemo{
 	public static void main(String[] args) {
 /*
  Up-Casting
- º¯È¯ (conversion)
+ ë³€í™˜ (conversion)
  = promotion
- = ¹¬½ÃÀû(implict) ÀÚµ¿Çüº¯È¯	
- ÀÚµ¿Çü º¯È¯Àº µ¥ÀÌÅÍ Å¸ÀÔÀÇ Ç¥Çö¹üÀ§°¡ ÀÛÀºÂÊ¿¡¼­ ¸¹Àº ÂÊÀ¸·Î º¯È¯ÀÌ µÉ¶§¸¸ °¡´ÉÇÏ´Ù.
+ = ë¬µì‹œì (implict) ìë™í˜•ë³€í™˜	
+ ìë™í˜• ë³€í™˜ì€ ë°ì´í„° íƒ€ì…ì˜ í‘œí˜„ë²”ìœ„ê°€ ì‘ì€ìª½ì—ì„œ ë§ì€ ìª½ìœ¼ë¡œ ë³€í™˜ì´ ë ë•Œë§Œ ê°€ëŠ¥í•˜ë‹¤.
  byte -> short -> int -> long -> float -> double
  char -> int
  */
@@ -26,11 +26,11 @@ class CastingDemo{
 		System.out.println("Hello Java");
 		/*
 		Down-Casting
-		= Ä³½ºÆÃ(Casting)
-		= °­Á¦Çüº¯È¯
-		= ÇÁ·Î±×·¥¿¡¼­ ¸í½ÃÀû(explict)À¸·Î ÁöÁ¤ÇÏ´Â Å¸ÀÔº¯È¯
-		Ãà¼Òº¯È¯ÀÌ µÇ´Â °æ¿ì¿¡´Â ¹İµå½Ã ¸í½ÃÀûÀ¸·Î Ä³½ºÆÃÇÏ¿©¾ß ÇÑ´Ù.
-		´Ü, µ¥ÀÌÅÍ ¼Õ½ÇÀÌ ¹ß»ıÇÒ¼ö ÀÖ´Ù.
+		= ìºìŠ¤íŒ…(Casting)
+		= ê°•ì œí˜•ë³€í™˜
+		= í”„ë¡œê·¸ë¨ì—ì„œ ëª…ì‹œì (explict)ìœ¼ë¡œ ì§€ì •í•˜ëŠ” íƒ€ì…ë³€í™˜
+		ì¶•ì†Œë³€í™˜ì´ ë˜ëŠ” ê²½ìš°ì—ëŠ” ë°˜ë“œì‹œ ëª…ì‹œì ìœ¼ë¡œ ìºìŠ¤íŒ…í•˜ì—¬ì•¼ í•œë‹¤.
+		ë‹¨, ë°ì´í„° ì†ì‹¤ì´ ë°œìƒí• ìˆ˜ ìˆë‹¤.
 			 */
 			Double varDou = 123.456;
 			int varInt2 = 3;
@@ -38,7 +38,7 @@ class CastingDemo{
 			byte varB2 = (byte) varInt2;
 			float varF = 123.456f;
 			int varInt3 = (int) varF;
-			System.out.println("varInt3 °ª : " + varInt3);
+			System.out.println("varInt3 ê°’ : " + varInt3);
 	}
 	
 	
