@@ -7,6 +7,6 @@ public class No03_3HangDemo {
 		int result = 0;
 		boolean boo = true;
 		result = boo ? left : right;
-		System.out.println("참이냐 거짓이냐  1이면 참, 0이면 거짓 : " + result);
+		System.out.println("참이냐 거짓이냐  1이면 참, 0이면 거짓  : " + result);
 	}
 }
