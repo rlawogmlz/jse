@@ -31,7 +31,7 @@ public class No02_IfElseDemo02 {
 		System.out.println("국어 : " + kor);
 		System.out.println("영어 : " + eng);
 		System.out.println("수학 : " + math);
-		System.out.println("평균 : " + avg);
+		System.out.println("평균 : " + (int)avg);
 		System.out.println("결과 : " + msg);
 		sc.close();
 	}
