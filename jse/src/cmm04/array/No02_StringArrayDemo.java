@@ -9,7 +9,7 @@ public class No02_StringArrayDemo {
 		juso[1] = "종료";
 		juso[2] = "광화문";
 		*/
-		for( int i = 0; i < 3; i ++ ){
+		for( int i = 0; i < juso1.length; i ++ ){
 			System.out.println(" 주소 : " + juso1[i]);
 		}
 	}
