@@ -1,6 +1,7 @@
 package oop01.syntax;
 
-public class AverageB {
+
+class AverageF {
 	/*필드 선언*/
 	String name;
 	int kor;
@@ -35,12 +36,14 @@ public class AverageB {
 	public void setAvg(int kor, int eng){
 		this.avg = (kor + eng)/2;
 	}
-	
+}
+
+public class AverageD {
 	public static void main(String[] args) {
 		/*학생 객체 생성 및 메모리 할당 */
-		AverageA hulk = new AverageA();
-		AverageA iron = new AverageA();
-		AverageA hawk = new AverageA();
+		AverageF hulk = new AverageF();
+		AverageF iron = new AverageF();
+		AverageF hawk = new AverageF();
 		/*이름 저장*/
 		hulk.name = "헐크";
 		iron.name = "아이언";
