@@ -12,7 +12,7 @@ public class PayC {
 	}//TAX의 값을 set 시킴(최신화)
 	
 	public void setIncome(int salary){
-		this.income = (int)(salary - TAX);
+		this.income = (int)(salary-salary * TAX);
 	}
 	// Alt + Shift + s - getter and setter : getter와 setter만듬
 	public String getName() {
