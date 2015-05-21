@@ -13,8 +13,9 @@ public class CardMain {
 		 * 가정할 때..
 		 * 게임룰은 높은 숫자 카드가 승리하는 게임입니다.
 		 * */
-		System.out.println("당신 카드의 " + "숫자는 " +  yourCard.number + " 이고 "
-				+ " 내 카드" +  "숫자는 " + myCard.number + " 이므로 "
+		
+		System.out.println("당신 카드의 " + "숫자는 " + myCard.getNumber() + " 이고 "
+				+ " 내 카드" +  "숫자는 " + yourCard.getNumber() + " 이므로 "
 				+ "당신이 이겼습니다.");
 	}
 }

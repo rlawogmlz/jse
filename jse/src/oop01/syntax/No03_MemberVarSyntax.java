@@ -5,7 +5,7 @@ package oop01.syntax;
  Desc : 멤버변수에 관한 문법
  */
 /*
- 멤버변수에 관한 자바 튜토이얼의 내용
+ 멤버변수에 관한 자바 튜토리얼의 내용
  - There are several kinds of variables
  - Member variables in a class-these are called fields. (멤변이 모여있는 곳을 필드라고 함)
  - Variables in Method declarations-these are called parameters. (메소드에 붙어있는 변수는 파라미터라고 함)
@@ -14,7 +14,6 @@ package oop01.syntax;
  변수의 종류
  - 클래스 변수( 클래스 영역, 클래스가 메모리에 올라갈 때, 가장 먼저 생성
  - 인스턴스 변수 ( 클래스 영역, 인스턴스 생성시 생성 )
- - 로컬 변수( 지역변수, 메서드 영역, 변수 선언문 수행시 생성 )
  - 로컬 변수( 지역변수, 메서드 영역, 변수 선언문 수행시 생성 )
  */
 /*
