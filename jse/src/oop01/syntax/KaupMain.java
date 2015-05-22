@@ -17,12 +17,8 @@ public class KaupMain {
 		
 		vo.setHeight(height);
 		vo.setWeight(weight);
+		vo.setIdx(height, weight);
 		
-		//int idx = (int)(weight / (height * height)) ;
-		System.out.println(idx);
-		
-		//vo.setIdx(idx);
-		vo.getMsg();
 		System.out.println(vo.toString());
 		System.out.println("완료");
 	}
